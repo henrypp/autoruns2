@@ -1,4 +1,4 @@
-// simplewall
+// Autoruns2
 // Copyright (c) 2012-2021 dmex
 // Copyright (c) 2021-2025 Henry++
 
