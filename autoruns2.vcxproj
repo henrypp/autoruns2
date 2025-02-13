@@ -30,7 +30,6 @@
     <ProjectGuid>{69F9BA5B-5927-4E0A-AEE4-D6D5D20E1D9E}</ProjectGuid>
     <RootNamespace>autoruns2</RootNamespace>
     <ProjectName>autoruns2</ProjectName>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
