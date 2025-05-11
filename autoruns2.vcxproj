@@ -147,7 +147,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <ControlFlowGuard>Guard</ControlFlowGuard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -180,7 +180,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <ControlFlowGuard>Guard</ControlFlowGuard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -216,7 +216,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <ControlFlowGuard>Guard</ControlFlowGuard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -252,7 +252,7 @@
       <StringPooling>true</StringPooling>
       <CallingConvention>StdCall</CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <EnableParallelCodeGeneration>
       </EnableParallelCodeGeneration>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -290,7 +290,7 @@
       <StringPooling>true</StringPooling>
       <CallingConvention>StdCall</CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <EnableParallelCodeGeneration>
       </EnableParallelCodeGeneration>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -331,7 +331,7 @@
       <ControlFlowGuard>Guard</ControlFlowGuard>
       <StringPooling>true</StringPooling>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_UPDATES;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SECURITY_WIN32;MICROSOFT_WINDOWS_WINBASE_H_DEFINE_INTERLOCKED_CPLUSPLUS_OVERLOADS;_UNICODE;UNICODE;WIN32_LEAN_AND_MEAN;APP_HAVE_UPDATES;APP_HAVE_SKIPUAC;APP_HAVE_SETTINGS_TABS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <EnableParallelCodeGeneration>
       </EnableParallelCodeGeneration>
       <TreatWarningAsError>true</TreatWarningAsError>
