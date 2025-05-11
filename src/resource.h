@@ -1,0 +1,143 @@
+#ifndef __RESOURCE_H__
+#define __RESOURCE_H__
+
+#ifndef IDC_STATIC
+#define IDC_STATIC (-1)
+#endif
+
+// Acceleration
+#define IDA_MAIN 1
+
+// Menu Id
+#define IDM_MAIN 100
+#define IDM_LISTVIEW 101
+
+// Dialogs
+#define IDD_MAIN 100
+#define IDD_ENTRIES 101
+
+// Main Dlg
+#define IDC_REBAR 102
+#define IDC_TOOLBAR 103
+#define IDC_SEARCH 104
+#define IDC_TAB 105
+#define IDC_LISTVIEW 106
+#define IDC_ALL 107
+#define IDC_LOGON 108
+#define IDC_PENDINGFILERENAME 109
+#define IDC_KNOWNDLLS 110
+#define IDC_IMAGEHIJACKS 111
+#define IDC_CODECS 112
+#define IDC_WEB 113
+#define IDC_TASKSCHEDULER 114
+#define IDC_SERVICES 115
+#define IDC_DRIVERS 116
+#define IDC_STATUSBAR 117
+
+// Settings Dlg
+#define IDC_NAV 118
+#define IDC_SAVE 119
+#define IDC_RESET 120
+#define IDC_CLOSE 121
+
+// Main Menu
+#define IDM_RUNASADMIN 122
+#define IDM_SETTINGS 123
+#define IDM_SAVE_HTML 124
+#define IDM_EXIT 125
+#define IDM_FIND 126
+#define IDM_ALWAYSONTOP_CHK 127
+#define IDM_DARKMODE_CHK 128
+#define IDM_SKIPUACWARNING_CHK 129
+#define IDM_USECERTIFICATES_CHK 130
+#define IDM_CHECKUPDATES_CHK 131
+#define IDM_WEBSITE 132
+#define IDM_CHECKUPDATES 133
+#define IDM_DONATE 134
+#define IDM_ABOUT 135
+
+// Listview Menu
+#define IDM_EXPLORE_FILE 136
+#define IDM_EXPLORE_REGISTRY 137
+#define IDM_COPY 138
+#define IDM_COPY_VALUE 139
+#define IDM_DELETE 140
+#define IDM_REFRESH 141
+
+#define IDM_SELECT_ALL 142
+#define IDM_ZOOM 143
+#define IDM_TAB_NEXT 144
+#define IDM_TAB_PREV 145
+
+#define IDX_LANGUAGE 1000
+
+// Strings
+#define IDS_UPDATE_NO 1
+#define IDS_UPDATE_YES 2
+#define IDS_UPDATE_DOWNLOAD 3
+#define IDS_UPDATE_DONE 4
+#define IDS_UPDATE_ERROR 5
+#define IDS_UPDATE_INIT 6
+#define IDS_UPDATE_INSTALL 7
+#define IDS_UPDATE_SPEED 8
+#define IDS_RESET 9
+#define IDS_SAVE 10
+#define IDS_CLOSE 11
+#define IDS_FILE 12
+#define IDS_VIEW 13
+#define IDS_SETTINGS 14
+#define IDS_HELP 15
+#define IDS_RUNASADMIN 16
+#define IDS_SAVE_HTML 17
+#define IDS_EXIT 18
+#define IDS_REFRESH 19
+#define IDS_FIND 20
+#define IDS_LANGUAGE 21
+#define IDS_WEBSITE 22
+#define IDS_CHECKUPDATES 23
+#define IDS_DONATE 24
+#define IDS_ABOUT 25
+#define IDS_EXPLORE_FILE 26
+#define IDS_EXPLORE_REGISTRY 27
+#define IDS_DELETE 28
+#define IDS_COPY 29
+#define IDS_NAME 30
+#define IDS_VALUE 31
+#define IDS_ALL 32
+#define IDS_LOGON 33
+#define IDS_WEB 34
+#define IDS_PENDINGFILERENAME 35
+#define IDS_CODECS 36
+#define IDS_KNOWNDLLS 37
+#define IDS_TASKSCHEDULER 38
+#define IDS_SERVICES 39
+#define IDS_DRIVERS 40
+#define IDS_IMAGEHIJACKS 41
+#define IDS_FILEPATH 42
+#define IDS_SIGNATURE 43
+#define IDS_ALWAYSONTOP_CHK 44
+#define IDS_DARKMODE_CHK 45
+#define IDS_USECERTIFICATES_CHK 46
+#define IDS_SKIPUACWARNING_CHK 47
+#define IDS_CHECKUPDATES_CHK 48
+#define IDS_QUESTION_ADMIN 49
+#define IDS_QUESTION_DELETE 50
+#define IDS_PROPERTIES 51
+#define IDS_STATUS_EMPTY 52
+#define IDS_STATUS_LOADING 53
+#define IDS_STATUS_FINISH 54
+#define IDS_STATUS_TOTAL 55
+
+// PNG
+#define IDP_SEARCH_LIGHT 100
+#define IDP_SEARCH_DARK 101
+#define IDP_DELETE 102
+#define IDP_REFRESH 103
+#define IDP_DONATE 104
+
+// Icons
+#define IDI_MAIN 100
+#define IDI_EMPTY 101
+#define IDI_FULL 102
+
+#endif // __RESOURCE_H__
