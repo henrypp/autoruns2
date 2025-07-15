@@ -458,7 +458,6 @@ LRESULT CALLBACK _app_search_subclass_proc (
 		{
 			RECT wnd_rect;
 			RECT buf_rect;
-			POINT pt = {0};
 			HRGN hrgn;
 			HDC hdc;
 			ULONG flags = DCX_WINDOW | DCX_LOCKWINDOWUPDATE | DCX_USESTYLE;
