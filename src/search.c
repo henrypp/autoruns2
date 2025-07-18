@@ -425,7 +425,7 @@ LRESULT CALLBACK _app_search_subclass_proc (
 
 			_r_wnd_removecontext (context->hwnd, SHORT_MAX);
 
-			SetWindowLongPtrW (hwnd, GWLP_WNDPROC, (LONG_PTR)wnd_proc);
+			_r_wnd_setsubclass (hwnd, GWLP_WNDPROC, wnd_proc);
 
 			_app_search_destroybufferedcontext (context);
 
