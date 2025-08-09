@@ -208,7 +208,8 @@ IDP_DONATE			PNG		"res\\paypal_fulllogo.png"
 //
 IDI_MAIN			ICON		"res\\100.ico"
 IDI_EMPTY			ICON		"res\\101.ico"
-IDI_FULL			ICON		"res\\102.ico"
+IDI_WAIT			ICON		"res\\102.ico"
+IDI_FULL			ICON		"res\\103.ico"
 
 //
 // Manifest resource

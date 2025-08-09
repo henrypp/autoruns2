@@ -147,6 +147,7 @@
 // Icons
 #define IDI_MAIN 100
 #define IDI_EMPTY 101
-#define IDI_FULL 102
+#define IDI_WAIT 102
+#define IDI_FULL 103
 
 #endif // __RESOURCE_H__
