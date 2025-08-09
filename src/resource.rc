@@ -188,10 +188,10 @@ BEGIN
 	IDS_QUESTION_ADMIN "To remove this value, required admin rights, give it?"
 	IDS_QUESTION_DELETE "Delete selected item(s)?"
 
-	IDS_STATUS_EMPTY "There are no items."
-	IDS_STATUS_LOADING "Loading..."
-	IDS_STATUS_FINISH "Finished in"
 	IDS_STATUS_TOTAL "Total items"
+	IDS_STATUS_LOADING "Loading..."
+	IDS_STATUS_EMPTY "There are no items."
+	IDS_STATUS_FINISH "Finished in"
 END
 
 //
