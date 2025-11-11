@@ -158,6 +158,7 @@ BEGIN
 	IDS_EXPLORE_REGISTRY "Explore registry"
 	IDS_DELETE "Delete"
 	IDS_COPY "Copy"
+	IDS_COPY_VALUE "Copy vallue"
 
 	IDS_ENTRIES "Entries"
 
