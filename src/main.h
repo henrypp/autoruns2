@@ -49,7 +49,7 @@
 // group id
 typedef enum _GROUP_ID
 {
-	HkcuRun,
+	HkcuRun = 0,
 	HkcuWow64Run,
 	HkcuRunOnce,
 	HkcuWow64RunOnce,
@@ -84,13 +84,13 @@ typedef enum _GROUP_ID
 	HklmRdpwd,
 	HkcuCodecs,
 	HklmCodecs,
+	HklmCodecsWow64,
 	HklmCodecsClsid1,
 	HklmCodecsClsid2,
 	HklmCodecsClsid3,
 	HklmCodecsClsid4,
 	HkcuCodecsClsid5,
 	HklmCodecsClsid6,
-	HklmCodecsWow64,
 	HklmFontDrivers,
 	HklmBHO,
 	HklmBHOWow64,
@@ -100,24 +100,7 @@ typedef enum _GROUP_ID
 	Services,
 	Drivers,
 	GroupMax,
-} GROUP_ID,*PGROUP_ID;
-
-typedef struct _STATIC_DATA
-{
-	PR_STRING search_string;
-	SC_HANDLE hsvcmgr;
-	HIMAGELIST himg_toolbar;
-	HIMAGELIST himg_tab;
-	HBITMAP hbitmap_uac;
-	HFONT wnd_font;
-	HWND hrebar;
-	HWND htoolbar;
-	HWND hsearchbar;
-	LONG64 start_time;
-	LONG icon_id;
-	volatile LONG total_count;
-	volatile LONG lock;
-} STATIC_DATA, *PSTATIC_DATA;
+} GROUP_ID, *PGROUP_ID;
 
 typedef enum _ITEM_TYPE
 {
@@ -153,6 +136,25 @@ typedef enum _ITEM_TYPE
 	DriversType,
 } ITEM_TYPE, *PITEM_TYPE;
 
+typedef struct _STATIC_DATA
+{
+	PR_STRING search_string;
+	PR_STRING startup_dir1;
+	PR_STRING startup_dir2;
+	SC_HANDLE hsvcmgr;
+	HIMAGELIST himg_toolbar;
+	HIMAGELIST himg_tab;
+	HBITMAP hbitmap_uac;
+	HFONT wnd_font;
+	HWND hrebar;
+	HWND htoolbar;
+	HWND hsearchbar;
+	LONG64 start_time;
+	LONG icon_id;
+	volatile LONG total_count;
+	volatile LONG lock;
+} STATIC_DATA, *PSTATIC_DATA;
+
 typedef struct _ITEM_CONTEXT
 {
 	PR_STRING signature_info;
@@ -165,8 +167,8 @@ typedef struct _ITEM_CONTEXT
 	PR_STRING name;
 	HANDLE hroot;
 	HWND hwnd;
-	ITEM_TYPE type;
 	GROUP_ID group_id;
+	ITEM_TYPE type;
 	LONG icon_id;
 	BOOLEAN is_hidden;
 	BOOLEAN is_loaded;
@@ -177,7 +179,7 @@ typedef struct _SCAN_CONTEXT
 	HANDLE hroot;
 	WCHAR path[128];
 	HWND hwnd;
-	LONG group_id;
+	GROUP_ID group_id;
 	ITEM_TYPE type;
 } SCAN_CONTEXT, *PSCAN_CONTEXT;
 
